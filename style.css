@@ -1,0 +1,148 @@
+body{
+   font-family: "Montserrat";
+   position: absolute;
+}
+#title{
+    background-color: #ff4c68;
+    color:white;
+}
+.container-fluid{
+    padding: 3% 15% 5%;
+}
+
+h1 {  
+    font-size: 3rem;  line-height: 1.5;  font-weight: 900;
+    
+}
+h2{
+    /* text-align: center; */
+    font-weight: bold;
+}
+p{
+    color:grey;
+}
+h3{
+
+    font-weight: bold;
+    margin-bottom:2%;
+}
+button{
+    margin-right: 2%;
+}
+a{
+    margin-right: 3%;
+}
+img{
+    height: 17rem;
+    margin-top: 2rem;
+    /* border-radius: 30px;
+    transform: rotate(-25deg); */
+}
+
+/* Navigation Bar */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: 30px;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding-right: 15px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    /* font-family: "Montserrat"; */
+}
+.pamphlet{
+    height:17rem;
+    position: absolute;
+    right:15%;
+   
+}
+#features{
+    background-color:#fff ;
+    /* margin: 4.5rem 9rem; */
+    padding:7% 15%;
+    position:relative;
+    z-index: 1;
+}
+.features-box{
+    text-align: center;
+}
+.icon{
+    color:#ff4c68;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:black;
+}
+#abilities{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color:#fff;
+}
+.carouselitem{
+    padding:7% 15%;
+}
+#pricing{
+    text-align: center;
+    height:20%;
+    padding:3% 2%;
+    
+}
+#footer{
+    background-color:#fff;
+    text-align: center;
+    padding:3% 15%;
+}
+.address{
+    text-align: left;
+    padding-left: 35%;
+    color:#fff;
+    margin-bottom: 3%;
+}
+#order{
+    background-color:#ff4c68;
+    padding:7% 15%;
+    text-align: center;
+}
+#socialmedia{
+    text-align: center;
+    padding:3% 2%;
+}
+.copyright{
+    margin-top:1%;
+}
+@media (max-width: 991px){
+    #title{
+        text-align: center;
+    }
+    .pamphlet{
+        position: static;
+    }
+    .address{
+        font-size: 20px;
+    }
+    .copyright{
+        font-size: 0.7rem;
+    }
+    .eventimg{
+        height:10rem;
+    }
+    .babyimg{
+        height:9rem;
+    }
+    .coupleimg{
+        height:9rem;
+    }
+    .address{
+        padding-left: 30%;
+    }
+    .copyright{
+        margin-top:2%;
+    }
+} 

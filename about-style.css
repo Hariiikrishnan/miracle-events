@@ -1,0 +1,29 @@
+body{
+    
+
+    font-family: "Ubuntu";
+}
+#head{
+    background-color: #ff4c68;
+    color:#fff;
+    padding:7% 15%;
+}
+#skills{
+    color:black;
+    background-color: #fff;
+    padding:7% 15%;
+}
+#end{
+    background-color: #ff4c68;
+    color:#fff;
+    text-align: center;
+    padding:4% 12%;
+}
+h1{
+    color:#fff;
+    text-align: center;
+    font-family: "Montserrat";
+}
+h2{
+    font-family: "Montserrat";
+}
